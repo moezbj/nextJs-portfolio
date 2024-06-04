@@ -6,6 +6,8 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+
+  mode: "jit",
   theme: {
     extend: {
       backgroundImage: {
@@ -19,7 +21,7 @@ const config: Config = {
         white: "#fff",
         secondaryText: "#9f9f9f",
         green: "#009e66",
-        grey:"#161616",
+        grey: "#161616",
         bg: "#101010",
       },
       fontSize: {
@@ -32,6 +34,17 @@ const config: Config = {
         bigTitle: "36px",
         bigTitle1: "48px",
       },
+      animation: {
+        fade: "fadeOut 10s ease-in-out",
+      },
+
+      // that is actual animation
+      keyframes: () => ({
+        fadeOut: {
+          "0%": { opacity: "1" },
+          "100%": { opacity: "0" },
+        },
+      }),
     },
   },
   plugins: [],

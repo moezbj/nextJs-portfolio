@@ -54,21 +54,28 @@ const Project = ({
     >
       <div
         style={{ backgroundColor: color }}
-        className="projectCard lg:h-80 color-white rounded-sm mb-5 overflow-hidden relative transition-all duration-500 ease-in-out p-5 grid grid-cols-12"
+        /* transition-all duration-500 ease-in-out fade */
+        className="projectCard lg:h-80 color-white rounded-sm mb-5 overflow-hidden relative
+         p-5 grid grid-cols-12 hover:cursor-pointer
+        [&_p]:hover:hidden [&_p]:hover:animation-fade [&_p]:hover:transition-all [&_p]:hover:duration-500 [&_p]:hover:ease-in-out
+        [&_h3]:hover:hidden [&_h3]:hover:animation-fade [&_h3]:hover:transition-all [&_h3]:hover:duration-500 [&_h3]:hover:ease-in-out
+        [&_span]:hover:hidden [&_span]:hover:animation-fade [&_span]:hover:transition-all [&_span]:hover:duration-500 [&_span]:hover:ease-in-out
+        [&_img]:hover:scale-125 [&_img]:hover:-translate-x-[60%] [&_img]:hover:transition-all [&_img]:hover:duration-500 [&_img]:hover:ease-in-out
+        "
         onClick={handleOpenModal}
       >
-        <div className="z-1 transition-all duration-900 ease-in-out col-span-6 flex flex-col justify-center items-center m-5 hover:transform hover:-translate-x-60">
+        <div className="z-1  col-span-6 flex flex-col justify-center items-center m-5 ">
           <p className="text-sm whitespace-nowrap">
             <em>{technologies}</em>
           </p>
           <h3 className="text-medium py-2.5 px-0">{title}</h3>
           <span className="text-standard ">View Work &#8594;</span>
         </div>
-        <div className="transition-all duration-300 ease-in-out translate-x-[180%] col-span-4 flex items-center justify-center">
+        <div className="col-span-4 flex items-center justify-center">
           <Image
             src={ee}
             alt="Laptop displaying application"
-            className="mt-6 transition-all duration-500 ease-in-out hover:transform hover:-translate-x-3/4"
+            className="mt-6 "
           />
         </div>
       </div>
