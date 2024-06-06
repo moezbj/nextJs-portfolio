@@ -3,13 +3,13 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import SocialIcons from "./components/SocialIcons";
-import landingImage from "../../public/aboutme.jpeg";
+import landingImage from "../../public/aboutme.jpg";
 
 const a = {
   name: "Ben jemaa mohamed el moez",
-  location: "Loughborough, UK",
-  tagline: "I'm a Developer",
-  email: "michael-yeates@outlook.com",
+  location: "Tunisia, TN",
+  tagline: "I'm a full stack Developer",
+  email: "moez@gmail.com",
   availability: "Open for work",
 };
 
@@ -51,7 +51,7 @@ export default function Home() {
             }
             transition={{ duration: 1, ease: "easeInOut" }}
           >
-            {/* <Image src={landingImage} alt="image" /> */}
+        {/*     <Image src={landingImage} alt="image" /> */}
           </motion.div>
         </div>
       </main>

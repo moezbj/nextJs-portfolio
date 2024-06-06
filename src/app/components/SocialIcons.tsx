@@ -15,17 +15,17 @@ const SocialIcons = () => {
 
   return (
     <div className="flex">
-      <Link
+     {/*  <Link
         className="icon"
         style={styles.icon}
         href="https://github.com/mdyeates"
       >
         <IoLogoGithub size={30}  className="hover:bg-green" />
-      </Link>
+      </Link> */}
       <Link
         className="icon"
         style={styles.icon}
-        href="https://www.linkedin.com/in/mdyeates/"
+        href="https://www.linkedin.com/in/ben-jemaa-moez-90734810b/"
       >
         <FaLinkedin size={30} className="hover:bg-green" />
       </Link>
