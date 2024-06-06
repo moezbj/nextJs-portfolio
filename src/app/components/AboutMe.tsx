@@ -65,10 +65,11 @@ const AboutMe = () => {
             </h5>
             <div className="text-secondaryText">
               <p>
-                My unique blend of technical expertise, creative thinking, and
-                background in psychology allows me to approach each project with
-                a deep understanding of the end user&lsquo;s perspective,
-                resulting in highly effective user-centred digital products.
+                I am a seasoned Full Stack JavaScript developer with 5 years of
+                experience in both front-end and back-end development. I
+                specialize in JavaScript frameworks, databases, and server- side
+                technology to create efficient and innovative web applications
+                that exceed client expectations.
               </p>
             </div>
             <div className="border-t-[1px] border-t-title mt-8 pt-8">

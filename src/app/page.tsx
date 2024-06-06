@@ -51,7 +51,7 @@ export default function Home() {
             }
             transition={{ duration: 1, ease: "easeInOut" }}
           >
-            <Image src={landingImage} alt="image" />
+            {/* <Image src={landingImage} alt="image" /> */}
           </motion.div>
         </div>
       </main>

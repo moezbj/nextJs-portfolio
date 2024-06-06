@@ -12,7 +12,6 @@ interface ProjectProps {
   image: string;
   color: string;
   id: number;
-  github: string;
   deployed: string;
   description: string;
 }
@@ -23,7 +22,6 @@ const Project = ({
   image,
   color,
   id,
-  github,
   deployed,
   description,
 }: ProjectProps) => {
@@ -103,12 +101,6 @@ const Project = ({
         <IoMdClose onClick={handleCloseModal}></IoMdClose>
         <h3 className="text-center mb-2.5 color-white">{title}</h3>
         <p className="mb-2.5">{description}</p>
-        <button
-          className="text-white bg-green border-none text-standard px-6 py-3 rounded-[20px] mt-10 cursor-pointer hover:bg-[#03b979]"
-          onClick={() => (window.location.href = github)}
-        >
-          GitHub Repo
-        </button>
         <button
           className="text-white bg-green border-none text-standard px-6 py-3 rounded-[20px] mt-10 cursor-pointer hover:bg-[#03b979]"
           onClick={() => (window.location.href = deployed)}

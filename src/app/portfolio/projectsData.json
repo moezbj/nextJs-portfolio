@@ -2,9 +2,9 @@
   {
     "title": "Guide alizé (Web app)",
     "image": "../../../public/bike.png",
-    "description": "I was responsible for the routing functionality of Bike Buddy, an application that helps parents and guardians keep their children safe while cycling. Utilises the Leaflet.js library and TomTom Routing/Reverse Geolocation API's to create an interactive and visually appealing map that allows a user to plot a route, taking into account various factors such as traffic levels, bicycle lanes, and elevation.",
+    "description": "L'objectif principal de Guide Alizé était de développer un outil pédagogique réunissant tout ce qu'il faut savoir pour une meilleure utilisation des thérapies inhalées dans les situations d'asthme et de BPCO chez l'adulte.",
     "technologies": "React Js | Tailwind css",
-    "deployed": "https://norrinradd8.github.io/bike_buddy/",
+    "deployed": "https://guide-alize.wereact.tech",
     "bgcolor": "#f37737",
     "id": 1
   },
@@ -12,8 +12,8 @@
     "title": "Guide alizé (Mobile App)",
     "image": "../../../public/weather.png",
     "technologies": "React native | EXPO ",
-    "description": " This dashboard uses the OpenWeatherMap API to retrieve detailed weather data, including the city name, date, weather icon, temperature, humidity, and wind speed. The dashboard has a 5-day forecast feature and a search history feature that saves past searches for easy access. It also has a dark/light theme that changes the look of the page based on day or night in the searched location and uses the geolocation API to automatically determine the user's current location and display the weather.",
-    "deployed": "https://mdyeates.github.io/weather-app/",
+    "description": "L'objectif principal de Guide Alizé était de développer un outil pédagogique réunissant tout ce qu'il faut savoir pour une meilleure utilisation des thérapies inhalées dans les situations d'asthme et de BPCO chez l'adulte.",
+    "deployed": "https://play.google.com/store/apps/details?id=com.guidealize&hl=en",
     "bgcolor": "#29cbe0",
     "id": 2
   },
@@ -22,7 +22,7 @@
     "image": "../../../public/bike.png",
     "description": "Le Guide Zéphir est un outil pour l’éducation thérapeutique à destination des professionnels de santé et des étudiants. Il est un annuaire des différents types de dispositifs classé par indications, classes thérapeutiques, DCI et enrichi de vidéos. Cette application est réservée au professionnels de santé. Pour obtenir un code d’accès, veuillez cliquer sur l’assistance et compléter le formulaire de contact.",
     "technologies": "React Js | Tailwind css",
-    "deployed": "https://norrinradd8.github.io/bike_buddy/",
+    "deployed": "https://guidezephir.wereact.tech",
     "bgcolor": "#f377",
     "id": 3
   },
@@ -31,14 +31,14 @@
     "image": "../../../public/weather.png",
     "technologies": "React native | EXPO ",
     "description": "Le Guide Zéphir est un outil pour l’éducation thérapeutique à destination des professionnels de santé et des étudiants. Il est un annuaire des différents types de dispositifs classé par indications, classes thérapeutiques, DCI et enrichi de vidéos. Cette application est réservée au professionnels de santé. Pour obtenir un code d’accès, veuillez cliquer sur l’assistance et compléter le formulaire de contact.",
-    "deployed": "https://mdyeates.github.io/weather-app/",
+    "deployed": "https://play.google.com/store/apps/details?id=com.zephir.activity&hl=en",
     "bgcolor": "#29cb",
     "id": 4
   },
   {
     "title": "DiagOriente Scolaire",
     "image": "../../../public/team.png",
-    "technologies": "JS | Node | Bootstrap | OOP | TTD",
+    "technologies": "Node, Express Js, React Js, Mongodb, GraphQl, Tailwind",
     "description": "Diagoriente est une application numérique accompagnée qui propose aux jeunes d’explorer leurs expériences, d’analyser leurs compétences transversales et d’identifier leurs intérêts professionnels pour se dessiner un avenir et choisir leur voie.",
     "deployed": "https://app.diagoriente.beta.gouv.fr/login",
     "bgcolor": "#6c4bf4",
@@ -48,7 +48,7 @@
     "title": "Diagoriente Collège",
     "image": "../../../public/P1.png",
     "description": "Pour les collégiens, une version qui aide à valoriser les compétences transversales, découvrir des métiers et identifier un stage de découverte.",
-    "technologies": "React | Framer | CSS | Bootstrap | Node",
+    "technologies": " Node, Express Js, React Js, Mongodb, GraphQl, Tailwind",
     "deployed": "https://professionnels.diagoriente.beta.gouv.fr/login",
     "bgcolor": "#ffcc33",
     "id": 6
@@ -57,7 +57,7 @@
     "title": "Diagoriente",
     "image": "../../../public/P1.png",
     "description": "Diagoriente est une plateforme gratuite et ouverte à tous pour valoriser ses compétences et trouver des pistes de métiers selon ses intérêts",
-    "technologies": "React | Framer | CSS | Bootstrap | Node",
+    "technologies": "Node, Express Js, React Js, Mongodb, GraphQl, Tailwind",
     "deployed": "https://web-app.diagoriente.beta.gouv.fr",
     "bgcolor": "#6cd",
     "id": 7
@@ -65,7 +65,7 @@
   {
     "title": "DIVA (open badge)",
     "image": "../../../public/quiz.png",
-    "technologies": "JS | HTML | CSS",
+    "technologies": "React js",
     "description": "DiVA est une plateforme d'Open Badges pour tous",
     "deployed": "https://diva-badges.fr",
     "bgcolor": "#f852",
@@ -74,7 +74,7 @@
   {
     "title": "Upkurs",
     "image": "../../../public/quiz.png",
-    "technologies": "JS | HTML | CSS",
+    "technologies": "React js | Tailwind ",
     "description": "A quiz app on the fundamentals of JavaScript. There are 5 randomly selected multiple-choice questions and the user will have a time limit of 50 seconds. The remaining time will determine their score at the end. The user will be penalised by 10 seconds for every incorrect answer.",
     "deployed": "https://www.upkurs.com",
     "bgcolor": "#f6C",
@@ -84,7 +84,7 @@
   {
     "title": "Upkurs (Instructeur)",
     "image": "../../../public/quiz.png",
-    "technologies": "JS | HTML | CSS",
+    "technologies": "Angular ",
     "description": "A quiz app on the fundamentals of JavaScript. There are 5 randomly selected multiple-choice questions and the user will have a time limit of 50 seconds. The remaining time will determine their score at the end. The user will be penalised by 10 seconds for every incorrect answer.",
     "deployed": "https://instructors.upkurs.com",
     "bgcolor": "#f85781",
