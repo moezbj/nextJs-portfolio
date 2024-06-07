@@ -38,13 +38,6 @@ const NavLinks = () => {
           Home
         </Link>
         <Link
-          href="/about"
-          onClick={() => setIsMenuOpen(false)}
-          className={linksStyle}
-        >
-          About
-        </Link>
-        <Link
           href="/portfolio"
           onClick={() => setIsMenuOpen(false)}
           className={linksStyle}
