@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import SocialIcons from "../components/SocialIcons";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
+import Icons from "./icons";
 
 const AboutMe = () => {
   const [ref, inView] = useInView({
@@ -106,7 +107,14 @@ const AboutMe = () => {
                   </p>
                 </div>
               </div>
+              <div className="my-1 grid grid-cols-12">
+                <div className="flex col-span-6 max-md:col-span-12 max-md:my-2">
+                  <span className="text-text">Technologies:</span>
+                  <Icons />
+                </div>
+              </div>
             </div>
+            
             <div className="flex items-center justify-between mr-8">
               <button
                 className="text-[#f9f9f] bg-green border-none text-standard px-6 py-3 rounded-[20px] mt-10 cursor-pointer hover:bg-[#03b979]"

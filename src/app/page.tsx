@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import SocialIcons from "./components/SocialIcons";
 import landingImage from "../../public/aboutme.jpg";
+import Icons from "./components/icons";
 
 const a = {
   name: "Ben jemaa mohamed el moez",
@@ -51,7 +52,7 @@ export default function Home() {
             }
             transition={{ duration: 1, ease: "easeInOut" }}
           >
-        {/*     <Image src={landingImage} alt="image" /> */}
+            {/*     <Image src={landingImage} alt="image" /> */}
           </motion.div>
         </div>
       </main>

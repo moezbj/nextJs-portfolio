@@ -43,3 +43,10 @@ body {
   opacity: 0.3;
   transition: opacity 0.3s ease-in-out;
 }
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.animate-rotate {
+  animation: rotate 10s linear infinite;
+}
