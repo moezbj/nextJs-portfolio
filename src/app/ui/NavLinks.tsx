@@ -17,12 +17,13 @@ const NavLinks = () => {
       >
         {isMenuOpen ? (
           <Image
+            priority
             className="h-4 cursor-pointer transform rotate-180 transition-transform duration-500 ease-in-out"
             src={closeMenu}
             alt="Close"
           />
         ) : (
-          <Image className="h-4" src={openMenu} alt="Open" />
+          <Image priority className="h-4" src={openMenu} alt="Open" />
         )}
       </button>
       <nav

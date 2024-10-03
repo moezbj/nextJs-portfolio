@@ -45,6 +45,7 @@ const AboutMe = () => {
           transition={{ duration: 0.4, ease: "easeInOut" }}
         >
           <Image
+            priority
             src={aboutMeImg}
             alt="image"
             className="h-[330px] w-[330px] p-2 z-50 border-[1px] border-title"
@@ -62,7 +63,7 @@ const AboutMe = () => {
               Nice to meet you
             </h4>
             <h5 className="text-lg mb-3.5 text-text">
-              Frontend Web Developer who creates amazing digital experiences!
+              Full stack Developer who creates amazing digital experiences!
             </h5>
             <div className="text-secondaryText">
               <p>
@@ -114,7 +115,7 @@ const AboutMe = () => {
                 </div>
               </div>
             </div>
-            
+
             <div className="flex items-center justify-between mr-8">
               <button
                 className="text-[#f9f9f] bg-green border-none text-standard px-6 py-3 rounded-[20px] mt-10 cursor-pointer hover:bg-[#03b979]"

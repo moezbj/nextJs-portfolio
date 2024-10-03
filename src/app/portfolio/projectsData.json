@@ -1,10 +1,28 @@
 [
   {
+    "title": "Office schedule",
+    "image": "../../../public/bike.png",
+    "description": "Access your planning documents wherever you are. Whether you’re on the go, or just have a few minutes to spare, our app fits seamlessly into your busy life.",
+    "technologies": "Electron js | React Js | Mui",
+    "deployed": "https://office-schedule.vercel.app/en",
+    "bgcolor": "#f85781",
+    "id": 0
+  },
+  {
+    "title": "DIVA (open badge)",
+    "image": "../../../public/quiz.png",
+    "technologies": "React js",
+    "description": "DiVA est une plateforme d'Open Badges pour tous",
+    "deployed": "https://diva-badges.fr",
+    "bgcolor": "#f852",
+    "id": 8
+  },
+  {
     "title": "Guide alizé (Web app)",
     "image": "../../../public/bike.png",
     "description": "L'objectif principal de Guide Alizé était de développer un outil pédagogique réunissant tout ce qu'il faut savoir pour une meilleure utilisation des thérapies inhalées dans les situations d'asthme et de BPCO chez l'adulte.",
     "technologies": "React Js | Tailwind css",
-    "deployed": "https://guide-alize.wereact.tech",
+    "deployed": "https://guidezephir.fr",
     "bgcolor": "#f37737",
     "id": 1
   },
@@ -22,7 +40,7 @@
     "image": "../../../public/bike.png",
     "description": "Le Guide Zéphir est un outil pour l’éducation thérapeutique à destination des professionnels de santé et des étudiants. Il est un annuaire des différents types de dispositifs classé par indications, classes thérapeutiques, DCI et enrichi de vidéos. Cette application est réservée au professionnels de santé. Pour obtenir un code d’accès, veuillez cliquer sur l’assistance et compléter le formulaire de contact.",
     "technologies": "React Js | Tailwind css",
-    "deployed": "https://guidezephir.wereact.tech",
+    "deployed": "https://guidealize.fr",
     "bgcolor": "#f377",
     "id": 3
   },
@@ -61,34 +79,5 @@
     "deployed": "https://web-app.diagoriente.beta.gouv.fr",
     "bgcolor": "#6cd",
     "id": 7
-  },
-  {
-    "title": "DIVA (open badge)",
-    "image": "../../../public/quiz.png",
-    "technologies": "React js",
-    "description": "DiVA est une plateforme d'Open Badges pour tous",
-    "deployed": "https://diva-badges.fr",
-    "bgcolor": "#f852",
-    "id": 8
-  },
-  {
-    "title": "Upkurs",
-    "image": "../../../public/quiz.png",
-    "technologies": "React js | Tailwind ",
-    "description": "A quiz app on the fundamentals of JavaScript. There are 5 randomly selected multiple-choice questions and the user will have a time limit of 50 seconds. The remaining time will determine their score at the end. The user will be penalised by 10 seconds for every incorrect answer.",
-    "deployed": "https://www.upkurs.com",
-    "bgcolor": "#f6C",
-    "id": 8
-  },
-
-  {
-    "title": "Upkurs (Instructeur)",
-    "image": "../../../public/quiz.png",
-    "technologies": "Angular ",
-    "description": "A quiz app on the fundamentals of JavaScript. There are 5 randomly selected multiple-choice questions and the user will have a time limit of 50 seconds. The remaining time will determine their score at the end. The user will be penalised by 10 seconds for every incorrect answer.",
-    "deployed": "https://instructors.upkurs.com",
-    "bgcolor": "#f85781",
-    "id": 8
   }
-  
 ]

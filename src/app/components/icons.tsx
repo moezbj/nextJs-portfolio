@@ -7,18 +7,34 @@ import { SiApollographql } from "react-icons/si";
 import { RiNextjsLine } from "react-icons/ri";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { BiLogoMongodb } from "react-icons/bi";
+import { IoLogoElectron } from "react-icons/io5";
+import { SiPrisma } from "react-icons/si";
+
+const techs = [
+  { icon: <FaReact size={30} />, title: "React js" },
+  { icon: <IoLogoElectron size={30} />, title: "Eletron js" },
+  { icon: <RiNextjsLine size={30} />, title: "Next js" },
+  { icon: <SiTypescript size={30} />, title: "TypeScript" },
+  { icon: <RiTailwindCssFill size={30} />, title: "Tailwind css" },
+  { icon: <SiApollographql size={30} />, title: "Apollo" },
+  { icon: <FaNodeJs size={30} />, title: "Node js" },
+  { icon: <GrGraphQl size={30} />, title: "Graphql" },
+  { icon: <BiLogoMongodb size={30} />, title: "Mongodb" },
+  { icon: <SiPrisma size={30} />, title: "prisma" },
+];
 
 const Icons = () => {
   return (
     <div className="flex flex-wrap">
-      <FaReact size={30} className="mx-1"/>
-      <FaNodeJs size={30} className="mx-1"/>
-      <SiTypescript size={30} className="mx-1"/>
-      <GrGraphQl size={30} className="mx-1"/>
-      <SiApollographql size={30} className="mx-1"/>
-      <RiNextjsLine size={30} className="mx-1"/>
-      <RiTailwindCssFill size={30} className="mx-1"/>
-      <BiLogoMongodb size={30} className="mx-1"/>
+      {techs.map((tech) => (
+        <div
+          key={tech.title}
+          className="flex flex-col rounded-md items-center p-2 border border-white m-2 cursor-pointer"
+        >
+          {tech.icon}
+          <p className="">{tech.title}</p>
+        </div>
+      ))}
     </div>
   );
 };

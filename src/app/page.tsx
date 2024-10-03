@@ -49,6 +49,7 @@ const AboutMe = () => {
             transition={{ duration: 0.4, ease: "easeInOut" }}
           >
             <Image
+              priority
               src={aboutMeImg}
               alt="image"
               className="h-[330px] w-[330px] p-2 z-50 border-[1px] border-title"
@@ -66,7 +67,7 @@ const AboutMe = () => {
                 Nice to meet you
               </h4>
               <h5 className="text-lg mb-3.5 text-text">
-                Frontend Web Developer who creates amazing digital experiences!
+                Full stack Developer who creates amazing digital experiences!
               </h5>
               <div className="text-secondaryText">
                 <p>
@@ -97,7 +98,7 @@ const AboutMe = () => {
                     </p>
                   </div>
                 </div>
-                <div className="my-1 grid grid-cols-12">
+                <div className="my-2 grid grid-cols-12">
                   <div className="flex col-span-6 max-md:col-span-12 max-md:my-2">
                     <span className="text-text">Location:</span>
                     <p className="text-secondaryText ml-2.5 pl-2.5">
@@ -111,9 +112,9 @@ const AboutMe = () => {
                     </p>
                   </div>
                 </div>
-                <div className="my-1 grid grid-cols-12">
-                  <div className="flex col-span-6 max-md:col-span-12 max-md:my-2">
-                    <span className="text-text">Technologies:</span>
+                <div className="my-2 grid grid-cols-12">
+                  <div className="flex items-center col-span-12 max-md:col-span-12 max-md:my-2">
+                    <span className="text-text mt-4">Technologies:</span>
                     <Icons />
                   </div>
                 </div>

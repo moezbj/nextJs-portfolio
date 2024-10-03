@@ -5,6 +5,7 @@ import { useState } from "react";
 import { IoMdClose } from "react-icons/io";
 import Image from "next/image";
 import ee from "../../../public/P1.png";
+import Link from "next/link";
 
 interface ProjectProps {
   technologies: string;
@@ -71,6 +72,7 @@ const Project = ({
         </div>
         <div className="col-span-4 flex items-center justify-center">
           <Image
+            priority
             src={ee}
             alt="Laptop displaying application"
             className="mt-6 "
@@ -79,7 +81,9 @@ const Project = ({
       </div>
       <Modal
         isOpen={showModal}
+        appElement={document.getElementById("root") as HTMLElement}
         onRequestClose={handleCloseModal}
+        ariaHideApp={false}
         style={{
           content: {
             backgroundColor: "#101010",
@@ -101,12 +105,14 @@ const Project = ({
         <IoMdClose onClick={handleCloseModal}></IoMdClose>
         <h3 className="text-center mb-2.5 color-white">{title}</h3>
         <p className="mb-2.5">{description}</p>
-        <button
-          className="text-white bg-green border-none text-standard px-6 py-3 rounded-[20px] mt-10 cursor-pointer hover:bg-[#03b979]"
-          onClick={() => (window.location.href = deployed)}
+        <Link
+        href={deployed}
+        target="_blank"
+          className="text-white text-center bg-green border-none text-standard px-6 py-3 rounded-[20px] mt-10 cursor-pointer hover:bg-[#03b979]"
+       /*    onClick={() => (window.location.href = deployed)} */
         >
           Live Link
-        </button>
+        </Link>
       </Modal>
     </motion.div>
   );

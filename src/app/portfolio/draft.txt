@@ -1,0 +1,19 @@
+/*   {
+    "title": "Upkurs",
+    "image": "../../../public/quiz.png",
+    "technologies": "React js | Tailwind ",
+    "description": "A quiz app on the fundamentals of JavaScript. There are 5 randomly selected multiple-choice questions and the user will have a time limit of 50 seconds. The remaining time will determine their score at the end. The user will be penalised by 10 seconds for every incorrect answer.",
+    "deployed": "https://www.upkurs.com",
+    "bgcolor": "#f6C",
+    "id": 8
+  },
+
+  {
+    "title": "Upkurs (Instructeur)",
+    "image": "../../../public/quiz.png",
+    "technologies": "Angular ",
+    "description": "A quiz app on the fundamentals of JavaScript. There are 5 randomly selected multiple-choice questions and the user will have a time limit of 50 seconds. The remaining time will determine their score at the end. The user will be penalised by 10 seconds for every incorrect answer.",
+    "deployed": "https://instructors.upkurs.com",
+    "bgcolor": "#f85781",
+    "id": 8
+  } */
