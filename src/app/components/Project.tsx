@@ -54,8 +54,8 @@ const Project = ({
       <div
         style={{ backgroundColor: color }}
         /* transition-all duration-500 ease-in-out fade */
-        className="projectCard lg:h-80 color-white rounded-sm mb-5 overflow-hidden relative
-         p-5 grid grid-cols-12 hover:cursor-pointer
+        className="projectCard lg:h-80 color-white rounded-sm overflow-hidden relative
+         grid grid-cols-12 hover:cursor-pointer
         [&_p]:hover:hidden [&_p]:hover:animation-fade [&_p]:hover:transition-all [&_p]:hover:duration-500 [&_p]:hover:ease-in-out
         [&_h3]:hover:hidden [&_h3]:hover:animation-fade [&_h3]:hover:transition-all [&_h3]:hover:duration-500 [&_h3]:hover:ease-in-out
         [&_span]:hover:hidden [&_span]:hover:animation-fade [&_span]:hover:transition-all [&_span]:hover:duration-500 [&_span]:hover:ease-in-out
@@ -63,14 +63,11 @@ const Project = ({
         "
         onClick={handleOpenModal}
       >
-        <div className="z-1 col-span-6 flex flex-col justify-center items-center m-5 ">
-          <p className="text-sm whitespace-nowrap">
-            <span className="text-white pl-2">{technologies}</span>
-          </p>
+        <div className="z-1 h-40 lg:h-80 col-span-12 lg:col-span-6 flex flex-col justify-center items-center m-3">
           <h3 className="text-medium py-2.5 px-0 text-white">{title}</h3>
           <span className="text-standard ">View Work &#8594;</span>
         </div>
-        <div className="col-span-4 flex items-center justify-center">
+        <div className="hidden col-span-4 lg:flex items-center justify-center">
           <Image
             priority
             src={ee}
@@ -105,6 +102,9 @@ const Project = ({
         <IoMdClose onClick={handleCloseModal}></IoMdClose>
         <h3 className="text-center mb-2.5 color-white">{title}</h3>
         <p className="mb-2.5">{description}</p>
+        <p className="text-sm col-span-12 whitespace-break-spaces">
+          <span>Technologies:</span> <span className="text-white">{technologies}</span>
+        </p>
         <Link
           href={deployed}
           target="_blank"
