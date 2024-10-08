@@ -100,23 +100,25 @@ const AboutMe = () => {
                     </p>
                   </div>
                 </div>
-                <div className="my-2 grid grid-cols-12">
-                  <div className="flex lg:items-center flex-col col-span-12  max-md:col-span-12 max-md:my-2">
-                    <span className="lg:text-text mt-4">Technologies:</span>
+                <div className="grid grid-cols-12 max-md:my-2">
+                  <div className="flex flex-col col-span-12  max-md:col-span-12 ">
+                    <span className="lg:text-text">Technologies:</span>
                     <Icons />
                   </div>
                 </div>
               </div>
 
-              <div className="flex items-center justify-between mr-8">
+              <div className="flex flex-col lg:flex-row items-center justify-between mr-8">
                 <button
                   className="text-[#f9f9f] bg-green border-none text-standard px-6 py-3 rounded-[20px] mt-10 cursor-pointer hover:bg-[#03b979]"
                   onClick={handleDownload}
                   disabled={downloading}
                 >
                   {downloading ? "Downloading..." : "Download Resume"}
-                </button>{" "}
-                <SocialIcons />
+                </button>
+                <div className="mt-4 lg:mt-10">
+                  <SocialIcons />
+                </div>
               </div>
             </div>
           </div>

@@ -63,11 +63,11 @@ const Project = ({
         "
         onClick={handleOpenModal}
       >
-        <div className="z-1  col-span-6 flex flex-col justify-center items-center m-5 ">
+        <div className="z-1 col-span-6 flex flex-col justify-center items-center m-5 ">
           <p className="text-sm whitespace-nowrap">
-            <em>{technologies}</em>
+            <span className="text-white pl-2">{technologies}</span>
           </p>
-          <h3 className="text-medium py-2.5 px-0">{title}</h3>
+          <h3 className="text-medium py-2.5 px-0 text-white">{title}</h3>
           <span className="text-standard ">View Work &#8594;</span>
         </div>
         <div className="col-span-4 flex items-center justify-center">
@@ -106,10 +106,10 @@ const Project = ({
         <h3 className="text-center mb-2.5 color-white">{title}</h3>
         <p className="mb-2.5">{description}</p>
         <Link
-        href={deployed}
-        target="_blank"
+          href={deployed}
+          target="_blank"
           className="text-white text-center bg-green border-none text-standard px-6 py-3 rounded-[20px] mt-10 cursor-pointer hover:bg-[#03b979]"
-       /*    onClick={() => (window.location.href = deployed)} */
+          /*    onClick={() => (window.location.href = deployed)} */
         >
           Live Link
         </Link>

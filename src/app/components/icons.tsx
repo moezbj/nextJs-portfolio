@@ -29,7 +29,7 @@ const Icons = () => {
       {techs.map((tech) => (
         <div
           key={tech.title}
-          className="flex flex-col rounded-md items-center p-2 border border-white m-2 cursor-pointer"
+          className="flex flex-col rounded-md items-center p-2 border border-white m-1 lg:m-2 cursor-pointer"
         >
           {tech.icon}
           <p className="">{tech.title}</p>

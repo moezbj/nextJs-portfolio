@@ -70,8 +70,8 @@ const ContactInfo = ({ name, email, location }: infoProps) => {
           </div>
         </li>
       </ul>
-      <SocialIcons />
-
+{/*       <SocialIcons />
+ */}
     </motion.div>
   );
 };
