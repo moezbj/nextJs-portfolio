@@ -24,7 +24,7 @@ const AboutMe = () => {
     setDownloading(true);
     const link = document.createElement("a");
     link.href =
-      "https://drive.google.com/file/d/1S3wFZcIqtuWxQxhOa5F-4OwUhWRPuN9M/view?usp=drive_link";
+      "https://drive.google.com/file/d/1HTFuFEgcVLVg9KpYuiXm-HtVsx4vnKtj/view?usp=drive_link";
     link.target = "_blank";
     link.download = "benJemaaMedMoez.pdf";
     link.onload = () => {
