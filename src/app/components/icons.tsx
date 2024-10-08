@@ -11,16 +11,16 @@ import { IoLogoElectron } from "react-icons/io5";
 import { SiPrisma } from "react-icons/si";
 
 const techs = [
-  { icon: <FaReact size={30} />, title: "React js" },
-  { icon: <IoLogoElectron size={30} />, title: "Eletron js" },
-  { icon: <RiNextjsLine size={30} />, title: "Next js" },
-  { icon: <SiTypescript size={30} />, title: "TypeScript" },
-  { icon: <RiTailwindCssFill size={30} />, title: "Tailwind css" },
-  { icon: <SiApollographql size={30} />, title: "Apollo" },
-  { icon: <FaNodeJs size={30} />, title: "Node js" },
-  { icon: <GrGraphQl size={30} />, title: "Graphql" },
-  { icon: <BiLogoMongodb size={30} />, title: "Mongodb" },
-  { icon: <SiPrisma size={30} />, title: "prisma" },
+  { icon: <FaReact size={30} fill="#fff" />, title: "React js" },
+  { icon: <IoLogoElectron size={30} fill="#fff" />, title: "Eletron js" },
+  { icon: <RiNextjsLine size={30} fill="#fff" />, title: "Next js" },
+  { icon: <SiTypescript size={30} fill="#fff" />, title: "TypeScript" },
+  { icon: <RiTailwindCssFill size={30} fill="#fff" />, title: "Tailwind css" },
+  { icon: <SiApollographql size={30} fill="#fff" />, title: "Apollo" },
+  { icon: <FaNodeJs size={30} fill="#fff" />, title: "Node js" },
+  { icon: <GrGraphQl size={30} fill="#fff" />, title: "Graphql" },
+  { icon: <BiLogoMongodb size={30} fill="#fff" />, title: "Mongodb" },
+  { icon: <SiPrisma size={30} fill="#fff" />, title: "prisma" },
 ];
 
 const Icons = () => {
@@ -32,7 +32,7 @@ const Icons = () => {
           className="flex flex-col rounded-md items-center p-2 border border-white m-1 lg:m-2 cursor-pointer"
         >
           {tech.icon}
-          <p className="">{tech.title}</p>
+          <p className="text-white">{tech.title}</p>
         </div>
       ))}
     </div>
