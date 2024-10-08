@@ -65,7 +65,7 @@ const Project = ({
       >
         <div className="z-1 h-40 lg:h-80 col-span-12 lg:col-span-6 flex flex-col justify-center items-center m-3">
           <h3 className="text-medium py-2.5 px-0 text-white">{title}</h3>
-          <span className="text-standard ">View Work &#8594;</span>
+          <span className="text-standard text-white">View Work &#8594;</span>
         </div>
         <div className="hidden col-span-4 lg:flex items-center justify-center">
           <Image
