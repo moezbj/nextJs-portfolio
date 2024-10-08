@@ -41,27 +41,15 @@ const AboutMe = () => {
 
       <div className="border-b-[1px] border-b-title mt-12 pb-4">
         <div className="grid grid-cols-12 gap-4 p-0 m-0">
-          <motion.div
-            className="flex items-center mb-12 col-span-4 max-md:col-span-12 justify-center"
-            ref={ref}
-            initial={{ x: "-10vw", opacity: 0 }}
-            animate={inView ? { x: 0, opacity: 1 } : { x: "-10vw", opacity: 0 }}
-            transition={{ duration: 0.4, ease: "easeInOut" }}
-          >
+          <div className="flex items-center mb-12 col-span-4 max-md:col-span-12 justify-center">
             <Image
               priority
               src={aboutMeImg}
               alt="image"
               className="h-[330px] w-[330px] p-2 z-50 border-[1px] border-title"
             />
-          </motion.div>
-          <motion.div
-            className="flex items-center mb-12 col-span-8 max-md:col-span-12"
-            ref={ref}
-            initial={{ x: "10vw", opacity: 0 }}
-            animate={inView ? { x: 0, opacity: 1 } : { x: "10vw", opacity: 0 }}
-            transition={{ duration: 0.4, ease: "easeInOut" }}
-          >
+          </div>
+          <div className="flex items-center mb-12 col-span-8 max-md:col-span-12">
             <div className="p-2.5">
               <h4 className="text-md mb-3.5 font-normal text-green">
                 Nice to meet you
@@ -113,8 +101,8 @@ const AboutMe = () => {
                   </div>
                 </div>
                 <div className="my-2 grid grid-cols-12">
-                  <div className="flex items-center col-span-12 max-md:col-span-12 max-md:my-2">
-                    <span className="text-text mt-4">Technologies:</span>
+                  <div className="flex lg:items-center flex-col col-span-12  max-md:col-span-12 max-md:my-2">
+                    <span className="lg:text-text mt-4">Technologies:</span>
                     <Icons />
                   </div>
                 </div>
@@ -131,7 +119,7 @@ const AboutMe = () => {
                 <SocialIcons />
               </div>
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>
