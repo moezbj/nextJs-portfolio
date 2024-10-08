@@ -11,16 +11,19 @@ import { IoLogoElectron } from "react-icons/io5";
 import { SiPrisma } from "react-icons/si";
 
 const techs = [
-  { icon: <FaReact size={30} fill="#fff" />, title: "React js" },
-  { icon: <IoLogoElectron size={30} fill="#fff" />, title: "Eletron js" },
-  { icon: <RiNextjsLine size={30} fill="#fff" />, title: "Next js" },
-  { icon: <SiTypescript size={30} fill="#fff" />, title: "TypeScript" },
-  { icon: <RiTailwindCssFill size={30} fill="#fff" />, title: "Tailwind css" },
-  { icon: <SiApollographql size={30} fill="#fff" />, title: "Apollo" },
-  { icon: <FaNodeJs size={30} fill="#fff" />, title: "Node js" },
-  { icon: <GrGraphQl size={30} fill="#fff" />, title: "Graphql" },
-  { icon: <BiLogoMongodb size={30} fill="#fff" />, title: "Mongodb" },
-  { icon: <SiPrisma size={30} fill="#fff" />, title: "prisma" },
+  { icon: <FaReact size={30} color="#61dbfb" />, title: "React js" },
+  { icon: <IoLogoElectron size={30} color="#4183c4" />, title: "Eletron js" },
+  { icon: <RiNextjsLine size={30} color="#000" />, title: "Next js" },
+  { icon: <SiTypescript size={30} color="#3178c6" />, title: "TypeScript" },
+  { icon: <RiTailwindCssFill size={30} color="#4dc0b5" />, title: "Tailwind css" },
+  { icon: <SiApollographql size={30} color="#000" />, title: "Apollo" },
+  {
+    icon: <FaNodeJs size={30} color="#3c873a" />,
+    title: "Node js",
+  },
+  { icon: <GrGraphQl size={30} color="#E10098" />, title: "Graphql" },
+  { icon: <BiLogoMongodb size={30} color="#589636" />, title: "Mongodb" },
+  { icon: <SiPrisma size={30} color="#0b344b" />, title: "prisma" },
 ];
 
 const Icons = () => {
@@ -29,10 +32,10 @@ const Icons = () => {
       {techs.map((tech) => (
         <div
           key={tech.title}
-          className="flex flex-col rounded-md items-center p-2 border border-white m-1 lg:m-2 cursor-pointer"
+          className="flex flex-col rounded-md items-center p-2 border border-black bg-white mx-1 my-2 lg:m-2 cursor-pointer"
         >
           {tech.icon}
-          <p className="text-white">{tech.title}</p>
+          <p className="text-black mt-2">{tech.title}</p>
         </div>
       ))}
     </div>
