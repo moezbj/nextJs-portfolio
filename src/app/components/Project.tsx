@@ -81,7 +81,7 @@ const Project = ({
       </div>
       <Modal
         isOpen={showModal}
-        appElement={document.getElementById("root") as HTMLElement}
+        appElement={document.getElementById("root") as HTMLElement || <div />}
         onRequestClose={handleCloseModal}
         ariaHideApp={false}
         style={{
