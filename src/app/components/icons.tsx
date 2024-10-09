@@ -12,6 +12,7 @@ import { SiPrisma } from "react-icons/si";
 
 const techs = [
   { icon: <FaReact size={30} color="#61dbfb" />, title: "React js" },
+  { icon: <FaReact size={30} color="#61dbfb" />, title: "React Native" },
   { icon: <IoLogoElectron size={30} color="#4183c4" />, title: "Eletron js" },
   { icon: <RiNextjsLine size={30} color="#000" />, title: "Next js" },
   { icon: <SiTypescript size={30} color="#3178c6" />, title: "TypeScript" },
