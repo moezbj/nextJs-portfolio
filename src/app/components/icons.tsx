@@ -3,7 +3,6 @@ import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 import { GrGraphQl } from "react-icons/gr";
-import { SiApollographql } from "react-icons/si";
 import { RiNextjsLine } from "react-icons/ri";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { BiLogoMongodb } from "react-icons/bi";
@@ -17,7 +16,6 @@ const techs = [
   { icon: <RiNextjsLine size={30} color="#000" />, title: "Next js" },
   { icon: <SiTypescript size={30} color="#3178c6" />, title: "TypeScript" },
   { icon: <RiTailwindCssFill size={30} color="#4dc0b5" />, title: "Tailwind css" },
-  { icon: <SiApollographql size={30} color="#000" />, title: "Apollo" },
   {
     icon: <FaNodeJs size={30} color="#3c873a" />,
     title: "Node js",
