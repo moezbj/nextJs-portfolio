@@ -21,7 +21,7 @@ const NavLinks = () => {
   const closeModal = () => {
     setIsMenuOpen(false);
   };
-  const linksStyle = `relative text-links text-black flex justify-center px-4 py-0 hover:text-green ${
+  const linksStyle = `relative text-links flex justify-center px-4 py-0 hover:text-green ${
     isMenuOpen ? "text-black h-10 py-4" : ""
   }`;
   useClickOutside(modalRef, closeModal);
@@ -76,7 +76,7 @@ const NavLinks = () => {
           transition={{ duration: 0.4, ease: "easeInOut" }}
           className={`${
             isMenuOpen
-              ? "flex flex-col absolute left-0 right-0 top-0 bg-white w-full h-32"
+              ? "flex flex-col absolute left-0 right-0 top-0 bg-white w-full h-32 text-black"
               : "hidden"
           } `}
         >
